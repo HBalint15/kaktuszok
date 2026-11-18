@@ -1,0 +1,14 @@
+article {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 30px;
+}
+main {
+    display: grid;
+    gap: 15px;
+}
+@media screen and (max-width:750px) {
+    article {
+        grid-template-columns: 1fr 1fr;
+    }
+}
