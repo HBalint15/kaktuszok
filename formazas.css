@@ -106,4 +106,9 @@ footer {
     main {
         padding: 0;
     }
+    nav ul {
+        grid-template-columns: auto;
+        margin: auto;
+        justify-content: center;
+    }
 }
